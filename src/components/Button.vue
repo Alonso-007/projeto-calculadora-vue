@@ -1,6 +1,8 @@
 <template>
     <!-- se os parametros forem verdadeiros sera aplicada a classe -->
-    <button class="button" :class="{ operation, double, triple }">
+    <!-- $emit para chamar os eventos em vue q estao no outro arquivo -->
+    <button class="button" :class="{ operation, double, triple }"
+        @click="$emit('onClick', label)">
         {{ label }}
     </button>
 </template>
