@@ -17,7 +17,7 @@
 </script>
 
 <style>
-    :root { /* cria uma pseudo classe */
+    :root { /* cria uma pseudo classe quase semelhante ao elemento html*/
         --bg-button: #f0f0f0; /* para criar variavies deve começar com -- */
         --boder-button: solid 1px #888
     }
